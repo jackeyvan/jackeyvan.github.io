@@ -106,12 +106,14 @@ deploy:
   repo: https://github.com/Shacoc/shacoc.github.io.git
   branch: main
 
+# 本地搜索
 search:
   path: search.xml
   field: post
   content: true
   format: html
 
+# 字数统计
 symbols_count_time:
   symbols: true
   time: true
@@ -121,5 +123,4 @@ symbols_count_time:
   awl: 4
   wpm: 275
   suffix: "mins."
-  
   
