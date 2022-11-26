@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 万合天宜的博客
+title: 万合天宜
 subtitle: '万合天宜的博客'
-description: '这个社会，你不去争，没人会让你，你不去抢，没人会给你，你不去闯，没人会服你。'
+description: '你不去争，没人会让你，你不去抢，没人会给你。'
 keywords: 博客 技术 投资 量化
 author: 万合天宜
 language: zh-CN
@@ -123,4 +123,3 @@ symbols_count_time:
   awl: 4
   wpm: 275
   suffix: "mins."
-  
