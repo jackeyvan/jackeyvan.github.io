@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 万合天宜
+title: 万合天宜的博客
 subtitle: '万合天宜的博客'
-description: '快乐小鸟，到处飞呀，被老鹰给吃了。'
-keywords: 博客 技术 量化
-author: Shacoc
+description: '这个社会，你不去争，没人会让你，你不去抢，没人会给你，你不去闯，没人会服你。'
+keywords: 博客 技术 投资 量化
+author: 万合天宜
 language: zh-CN
 timezone: ''
 
@@ -103,7 +103,7 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: git
-  repo: git@github.com:Shacoc/shacoc.github.io.git
+  repo: git@github.com:nanbone/nanbone.github.io.git
   branch: main
 
 # 本地搜索
