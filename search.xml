@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>世界杯大流量高并发场景方案</title>
+    <url>/2022/11/27/%E4%B8%96%E7%95%8C%E6%9D%AF%E5%A4%A7%E6%B5%81%E9%87%8F%E9%AB%98%E5%B9%B6%E5%8F%91%E5%9C%BA%E6%99%AF%E6%96%B9%E6%A1%88/</url>
+    <content><![CDATA[<p>世界杯来临，用户在比赛期间看比赛、聊天、送礼物等行为，会导致服务端流量暴增，并且可能导致服务崩溃。为了解决这种大流量高并发的情景，我们讨论出了一些解决方案。</p>
+<span id="more"></span>
+
+<h4 id="服务迁移"><a href="#服务迁移" class="headerlink" title="服务迁移"></a>服务迁移</h4><ul>
+<li>将辅助功能迁移到其他服务，避免因为辅助服务导致核心服务崩溃。</li>
+</ul>
+<h4 id="功能降级"><a href="#功能降级" class="headerlink" title="功能降级"></a>功能降级</h4><ul>
+<li>后台开关控制部分辅助功能是否启动，大流量的情况下，只需保住核心功能。</li>
+</ul>
+<h4 id="接口限流和降级"><a href="#接口限流和降级" class="headerlink" title="接口限流和降级"></a>接口限流和降级</h4><ul>
+<li>后端接口限流，控制并发上限。</li>
+<li>客户端梳理接口访问频次，包括调用逻辑，访问频次等，最大程度降低访问量。</li>
+<li>客户端对Read类型接口使用缓存，比如缓存10分钟数据，有缓存则不请求接口，可以大大减少请求量。</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术</category>
+      </categories>
+      <tags>
+        <tag>技术</tag>
+        <tag>高并发</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数字货币现货组合定投方案</title>
+    <url>/2022/02/27/%E7%8E%B0%E8%B4%A7%E7%BB%84%E5%90%88%E5%AE%9A%E6%8A%95/</url>
+    <content><![CDATA[<ul>
+<li>币圈一天，人间一年。数字货币价格变化太快，你以为你在抄底，实际抄在半山腰。应对这种币价变化，需要用定投来平摊风险。</li>
+<li>币圈市值榜相比山寨币一般都比较稳定，投资单一币种不如将市值前十进行组合投资。</li>
+<li>根据不同的比例，将币圈市值榜和较有潜力的币种进行罗列和分析，并进行组合定投。</li>
+</ul>
+<span id="more"></span>
+
+<table>
+<thead>
+<tr>
+<th align="left">板块</th>
+<th align="center">总比</th>
+<th align="center">币种</th>
+<th align="center">比例</th>
+<th align="center">备注</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">单元格</td>
+<td align="center">单元格</td>
+<td align="center">单元格</td>
+<td align="center">单元格</td>
+<td align="center">单元格</td>
+</tr>
+<tr>
+<td align="left">单元格</td>
+<td align="center">单元格</td>
+<td align="center">单元格</td>
+<td align="center">单元格</td>
+<td align="center">单元格</td>
+</tr>
+</tbody></table>
+]]></content>
+      <categories>
+        <category>投资</category>
+      </categories>
+      <tags>
+        <tag>定投</tag>
+        <tag>数字货币</tag>
+      </tags>
+  </entry>
+</search>
