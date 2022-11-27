@@ -66,8 +66,89 @@
         <category>投资</category>
       </categories>
       <tags>
-        <tag>定投</tag>
         <tag>数字货币</tag>
+        <tag>交易</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>K线技术指标汇总</title>
+    <url>/2022/11/28/K%E7%BA%BF%E6%8A%80%E6%9C%AF%E6%8C%87%E6%A0%87%E5%88%86%E6%9E%90/</url>
+    <content><![CDATA[<h3 id="交易指标"><a href="#交易指标" class="headerlink" title="交易指标"></a>交易指标</h3><h4 id="CCI：判断市场方向"><a href="#CCI：判断市场方向" class="headerlink" title="CCI：判断市场方向"></a>CCI：判断市场方向</h4><ul>
+<li>长度18，长度54，18上下轨100和-100，54上下轨道200和-200</li>
+<li>大于100做多，小于100做空</li>
+</ul>
+<span id="more"></span>
+
+<h3 id="EMA：均线"><a href="#EMA：均线" class="headerlink" title="EMA：均线"></a>EMA：均线</h3><ul>
+<li><p>EMA 12和26天：适合寻找短期趋势</p>
+</li>
+<li><p>EMA 50和200天：适合寻找中长期趋势</p>
+</li>
+<li><p>黄金交叉：</p>
+<ul>
+<li>当 50 EMA 移动至 200 SMA 上方时，表明短期多头变得更加激进，而长期交易者仍然看涨。</li>
+<li>适用于从一分钟到一周的任何时间范围。</li>
+</ul>
+</li>
+<li><p>使用 200 SMA 确定长期趋势，使用 20 EMA 确定短期趋势。</p>
+</li>
+</ul>
+<h4 id="止盈止损"><a href="#止盈止损" class="headerlink" title="止盈止损"></a>止盈止损</h4><ul>
+<li>ATR止盈止损：计算ATR值，做多，最低点减去2倍ATR值，做空，最高点加上2倍ATR值</li>
+</ul>
+]]></content>
+      <categories>
+        <category>技术指标</category>
+      </categories>
+      <tags>
+        <tag>交易</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数字货币交易心得</title>
+    <url>/2022/11/27/%E6%95%B0%E5%AD%97%E8%B4%A7%E5%B8%81%E4%BA%A4%E6%98%93%E5%BF%83%E5%BE%97/</url>
+    <content><![CDATA[<h3 id="现货交易"><a href="#现货交易" class="headerlink" title="现货交易"></a>现货交易</h3><ul>
+<li>现货属于中长期投资，持有到牛市。</li>
+<li>关于抄底：不进行任何左侧交易，永远不抄底。因为你永远不知道哪里是底。</li>
+<li>进场规则：日线RSI超买之后，突破对应均线。</li>
+<li>出场规则：日线RSI超卖之后，跌破对应均线。</li>
+</ul>
+<span id="more"></span>
+
+<ul>
+<li>投资比例：6&#x2F;3&#x2F;1<ul>
+<li>6：BTC、ETH、BNB</li>
+<li>3：MATIC、ATOM、LINK、UNI</li>
+<li>1：DOGE、GMX、APT</li>
+</ul>
+</li>
+</ul>
+<h3 id="合约交易"><a href="#合约交易" class="headerlink" title="合约交易"></a>合约交易</h3><ul>
+<li>交易币种：ETH</li>
+<li>根据信号交易，使用均线设置止损。</li>
+</ul>
+<h3 id="加仓规则："><a href="#加仓规则：" class="headerlink" title="加仓规则："></a>加仓规则：</h3><ul>
+<li>买入信号出来之后，只挂一次亏损加仓。要么止损，要么逆转行情。</li>
+<li>如果有趋势了，趋势回撤之后，大力加仓。</li>
+<li>浮亏减仓，浮盈加仓。</li>
+</ul>
+<h3 id="关于趋势："><a href="#关于趋势：" class="headerlink" title="关于趋势："></a>关于趋势：</h3><ul>
+<li>不进行左侧交易，合约永远不抄底。</li>
+<li>只做右侧，等信号出来再交易。</li>
+</ul>
+<h3 id="建仓规则："><a href="#建仓规则：" class="headerlink" title="建仓规则："></a>建仓规则：</h3><ul>
+<li>等待信号建仓</li>
+<li>突破阻力位</li>
+<li>突破前高</li>
+<li>跌破前低</li>
+</ul>
+]]></content>
+      <categories>
+        <category>交易</category>
+      </categories>
+      <tags>
+        <tag>数字货币</tag>
+        <tag>交易</tag>
       </tags>
   </entry>
 </search>
