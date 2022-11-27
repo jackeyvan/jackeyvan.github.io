@@ -11,8 +11,4 @@
 你不去争，没人会让你。你不去抢，没人会给你。
 </div>
 
-<div align="center">
-https:www.shacoc.com
-</div>
-
 <br></br>
