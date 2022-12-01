@@ -22,7 +22,6 @@
         <category>技术</category>
       </categories>
       <tags>
-        <tag>技术</tag>
         <tag>高并发</tag>
       </tags>
   </entry>
@@ -98,10 +97,10 @@
 </ul>
 ]]></content>
       <categories>
-        <category>技术指标</category>
+        <category>投资</category>
       </categories>
       <tags>
-        <tag>交易</tag>
+        <tag>K线分析</tag>
       </tags>
   </entry>
   <entry>
@@ -144,11 +143,63 @@
 </ul>
 ]]></content>
       <categories>
-        <category>交易</category>
+        <category>投资</category>
       </categories>
       <tags>
         <tag>数字货币</tag>
         <tag>交易</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>国内和国外SSR搭建</title>
+    <url>/2022/12/01/%E5%9B%BD%E5%86%85%E5%92%8C%E5%9B%BD%E5%A4%96SSR%E6%90%AD%E5%BB%BA/</url>
+    <content><![CDATA[<p>人在国内时，经常需要访问Yotube和Netflix观看视频，人在国外时，经常需要访问网易云音乐和QQ音乐等听歌，翻墙进墙不易，且行且珍惜。</p>
+<span id="more"></span>
+
+<p><code>说明：本教程参考自一灯不是和尚的文章，有雷同之处属于正常，此文仅为个人搭建SSR的记录过程，不做任何建议。</code></p>
+<p><a href="https://iyideng.net/black-technology/cgfw/shadowsocksr-ssr-server-building-and-using-tutorial.html">参考文章地址</a></p>
+<h4 id="云服务器购买"><a href="#云服务器购买" class="headerlink" title="云服务器购买"></a>云服务器购买</h4><p>在网上大部分人都告诉你，先购买VPS服务器，很多人比较奇怪，VPS服务器跟国内的云服务器有什么区别呢。其实他俩是一个东西，都是虚拟服务器，只是外国人叫VPS服务器，中国人叫云服务器。</p>
+<ul>
+<li><p>国外VPS服务器推荐：<a href="https://www.vultr.com/">Vultr</a>，在优质国外VPS服务商中，Vultr是性价比最高、最值得推荐的一家。</p>
+</li>
+<li><p>国内云服务器推荐：<a href="https://cloud.tencent.com/act/pro/seckill_season">腾讯云</a>，<a href="https://www.ucloud.cn/site/active/uhost.html">Ucloud</a></p>
+</li>
+<li><p>Windows使用Xshell连接VPS服务器，Mac使用iTerm进行连接。</p>
+</li>
+</ul>
+<h4 id="SSR安装部署"><a href="#SSR安装部署" class="headerlink" title="SSR安装部署"></a>SSR安装部署</h4><ul>
+<li><p>安装<code>wget</code>依赖包(根据主机系统选择)</p>
+<pre><code>yum -y install wget         # CentOS
+sudo apt-get install wget   # Debian/Ubuntu
+</code></pre>
+</li>
+<li><p>安装<code>Curl</code>依赖包(根据主机系统选择)</p>
+<pre><code>yum update -y &amp;&amp; yum install curl -y            # CentOS/Fedora
+apt-get update -y &amp;&amp; apt-get install curl -y    # Debian/Ubuntu
+</code></pre>
+</li>
+<li><p>如果遇到权限问题，可使用命令<code>sudo su - root</code>，切换成root权限。</p>
+</li>
+<li><p>SSR一键搭建脚本</p>
+<p>这里使用的是<a href="https://github.com/ToyoDAdoubi/doubi#ssrsh">逗比大神(ToyoDAdoubi)</a>的SSR一键搭建脚本，因为全中文界面，操作更加简单方便。</p>
+<pre><code>wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh &amp;&amp; chmod +x ssr.sh &amp;&amp; bash ssr.sh
+</code></pre>
+<p>安装完毕之后，参数全部默认即可，配置完成后会显示当前的SSR服务器和地址等，复制地址到客户端就可以使用了。</p>
+</li>
+<li><p>开启BBR加速</p>
+<p>安装<code>BBR</code>一键加速后速度会更快。BBR的好处就是可以套Cloudflare的免费CDN，更好地保护VPS的真实IP地址，而且免费使用CDN流量，极大地节省了带宽流量。</p>
+<pre><code>cd /usr/src &amp;&amp; wget -N --no-check-certificate &quot;https://raw.githubusercontent.com/chiakge/Linux-NetSpeed/master/tcp.sh&quot; &amp;&amp; chmod +x tcp.sh &amp;&amp; ./tcp.sh
+</code></pre>
+</li>
+</ul>
+<h4 id="客户端使用"><a href="#客户端使用" class="headerlink" title="客户端使用"></a>客户端使用</h4><p>个人使用的是iPhone手机，所以用了<code>Potatso</code>客户端。直接复制ssr协议地址到postatso添加服务器就可以了。</p>
+]]></content>
+      <categories>
+        <category>VPN</category>
+      </categories>
+      <tags>
+        <tag>SSR</tag>
+        <tag>VPN</tag>
       </tags>
   </entry>
 </search>
