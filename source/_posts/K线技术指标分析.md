@@ -2,9 +2,9 @@
 title: K线技术指标汇总
 date: 2022-11-28
 categories:
-- 技术指标
+- 投资
 tags:
-- 交易
+- K线分析
 ---
 
 
