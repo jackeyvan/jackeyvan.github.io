@@ -1,5 +1,5 @@
 ---
-title: 国内和国外SSR搭建
+title: 国内外SSR搭建
 date: 2022-12-1
 categories:
 - VPN
@@ -59,3 +59,5 @@ tags:
 #### 客户端使用
 
 个人使用的是iPhone手机，所以用了`Potatso`客户端。直接复制ssr协议地址到postatso添加服务器就可以了。
+
+ip检测：https://www.whatismyip.com.tw
