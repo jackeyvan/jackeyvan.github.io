@@ -151,7 +151,7 @@
       </tags>
   </entry>
   <entry>
-    <title>国内和国外SSR搭建</title>
+    <title>国内外SSR搭建</title>
     <url>/2022/12/01/%E5%9B%BD%E5%86%85%E5%92%8C%E5%9B%BD%E5%A4%96SSR%E6%90%AD%E5%BB%BA/</url>
     <content><![CDATA[<p>人在国内时，经常需要访问Yotube和Netflix观看视频，人在国外时，经常需要访问网易云音乐和QQ音乐等听歌，翻墙进墙不易，且行且珍惜。</p>
 <span id="more"></span>
@@ -193,6 +193,7 @@ apt-get update -y &amp;&amp; apt-get install curl -y    # Debian/Ubuntu
 </li>
 </ul>
 <h4 id="客户端使用"><a href="#客户端使用" class="headerlink" title="客户端使用"></a>客户端使用</h4><p>个人使用的是iPhone手机，所以用了<code>Potatso</code>客户端。直接复制ssr协议地址到postatso添加服务器就可以了。</p>
+<p>ip检测：<a href="https://www.whatismyip.com.tw/">https://www.whatismyip.com.tw</a></p>
 ]]></content>
       <categories>
         <category>VPN</category>
