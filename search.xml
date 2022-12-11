@@ -203,4 +203,29 @@ apt-get update -y &amp;&amp; apt-get install curl -y    # Debian/Ubuntu
         <tag>VPN</tag>
       </tags>
   </entry>
+  <entry>
+    <title>个人文案收集</title>
+    <url>/2022/12/10/%E4%B8%AA%E4%BA%BA%E6%96%87%E6%A1%88%E6%94%B6%E9%9B%86/</url>
+    <content><![CDATA[<p>《官策》<br>生如蝼蚁，当有鸿鹄之志；<br>命如纸薄，应有不屈之心；<br>大丈夫身居天地间，岂能郁郁久居人下；<br>当以梦为马，不负韶华；<br>乾坤未定，你我皆是黑马；</p>
+]]></content>
+      <categories>
+        <category>读书</category>
+      </categories>
+      <tags>
+        <tag>文案</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>书籍收集</title>
+    <url>/2022/12/11/%E4%B9%A6%E7%B1%8D%E6%94%B6%E9%9B%86/</url>
+    <content><![CDATA[<h3 id="历史记录片"><a href="#历史记录片" class="headerlink" title="历史记录片"></a>历史记录片</h3><p>《苏东坡》<br>《大明宫》<br>《中国》<br>《中国通史》<br>《敦煌》<br>《故宫100》<br>《二次世界大战启示录》</p>
+<h3 id="央视推荐"><a href="#央视推荐" class="headerlink" title="央视推荐"></a>央视推荐</h3><p>《当下的力量》<br>《法治的细节》<br>《自卑与超越》<br>《亲密关系》<br>《把自己当回事儿》<br>《静心》</p>
+<h3 id="矛盾文学奖"><a href="#矛盾文学奖" class="headerlink" title="矛盾文学奖"></a>矛盾文学奖</h3><h3 id="诺贝尔文学奖"><a href="#诺贝尔文学奖" class="headerlink" title="诺贝尔文学奖"></a>诺贝尔文学奖</h3><h3 id="投资"><a href="#投资" class="headerlink" title="投资"></a>投资</h3>]]></content>
+      <categories>
+        <category>读书</category>
+      </categories>
+      <tags>
+        <tag>书籍</tag>
+      </tags>
+  </entry>
 </search>
